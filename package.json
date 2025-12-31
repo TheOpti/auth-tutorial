@@ -1,0 +1,21 @@
+{
+  "name": "auth-tutorial",
+  "version": "1.0.0",
+  "description": "Advanced MERN Auth Course from YouTube: Email Verification, Password Recovery, and Welcome Emails",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "npm run dev -w apps/frontend",
+    "start:backend": "npm run dev -w apps/backend",
+    "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
