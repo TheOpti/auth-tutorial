@@ -8,8 +8,6 @@ The goal was to set up a scalable monorepo for a full-stack application. By keep
 I chose npm Workspaces as the primary orchestration layer. It provides a native way to manage multiple packages within a single root project.
 Folder Structure
 
-
-
 ```
 my-monorepo/
 ├── apps/
